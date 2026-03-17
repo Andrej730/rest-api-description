@@ -124669,7 +124669,13 @@
           "status": {
             "type": "string",
             "nullable": true,
-            "example": "completed"
+            "example": "completed",
+            "enum": [
+              "queued",
+              "in_progress",
+              "completed",
+              "waiting"
+            ]
           },
           "conclusion": {
             "type": "string",
